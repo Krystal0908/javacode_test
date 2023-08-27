@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.atguigu</groupId>
     <artifactId>javacode_test</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
-        <module>maven_demo</module>
+        <module>guigu-ssm-maven-demo</module>
         <module>yupi_demo</module>
+        <module>maven-javaee-project01</module>
+<!--        <module>maven-pom-dependenies-02</module>-->
     </modules>
+
     <name>javacode_test</name>
 
     <description>javacode_test</description>
