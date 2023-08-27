@@ -103,7 +103,19 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
+
+    <!--导入插件-->
+    <build>
+        <!--jdk17和war包版本插件不匹配-->
+        <plugins>
+            <plugin>
+                <!--配置插件-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
